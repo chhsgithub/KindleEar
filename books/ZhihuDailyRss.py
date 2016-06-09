@@ -7,7 +7,7 @@ def getBook():
 
 class ZhihuDaily(BaseFeedBook):
     title                 = u'知乎日報'
-    description           = u'知乎日报全文RSS，不需要转发，排版图片正常。'
+    description           = u'测试book.py文件修改。'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
