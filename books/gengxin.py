@@ -15,5 +15,5 @@ class gengxin(BaseFeedBook):
     coverfile = "cv_zhihudaily.jpg"
     oldest_article        = 1
     feeds = [
-            (u'异常', 'http://feed43.com/5454041806035373.xml', True)
+            (u'异常', 'http://feed43.com/5454041806035373.xml')
            ]
