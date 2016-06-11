@@ -11,7 +11,6 @@ class yichang(BaseFeedBook):
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    mastheadfile = "mh_yichang.gif"
     coverfile = "cv_yichang.jpg"
     oldest_article        = 1
     feeds = [
