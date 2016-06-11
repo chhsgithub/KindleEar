@@ -3,17 +3,17 @@
 from base import BaseFeedBook
 
 def getBook():
-    return gengxin
+    return yichang
 
-class gengxin(BaseFeedBook):
-    title                 = u'异常生物'
-    description           = u'测试。'
+class yichang(BaseFeedBook):
+    title                 = u'异常生物见闻录'
+    description           = u'远瞳。'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    mastheadfile = "mh_zhihudaily.gif"
-    coverfile = "cv_zhihudaily.jpg"
+    mastheadfile = "mh_yichang.gif"
+    coverfile = "cv_yichang.jpg"
     oldest_article        = 1
     feeds = [
-            (u'异常', 'http://feed43.com/5454041806035373.xml')
+            (u'正文', 'http://feed43.com/5454041806035373.xml')
            ]
