@@ -7,12 +7,12 @@ def getBook():
 
 class ruzidi(BaseFeedBook):
     title                 = u'孺子帝'
-    description           = u'远瞳著'
+    description           = u'冰临神下'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    coverfile = "cv_yichang.jpg"
+    coverfile = "cv_ruzidi.jpg"
     oldest_article        = 1
     feeds = [
-            (u'正文', 'http://feed43.com/5454041806035373.xml')
+            (u'正文', 'http://feed43.com/4753287776175011.xml')
            ]
