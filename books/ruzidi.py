@@ -18,4 +18,4 @@ class ruzidi(BaseFeedBook):
            ]
            
     def processtitle(self, title):
-        return title[:-4] if title.endswith(u',飘天文学') else title
+        return title[:-4] if title.endswith(u'飘天文学') else title
