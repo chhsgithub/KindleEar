@@ -17,5 +17,9 @@ class ruzidi(BaseFeedBook):
             (u'正文', 'http://feed43.com/4753287776175011.xml')
            ]
 
-def processtitle(self, title):
-        return title[:-4] if title.endswith(u',飘天文学') else title
+ def processtitle(self, title):
+        title = BaseFeedBook.processtitle(self,title)
+        if title.endswith(u',飘天文学'):
+            return title.replace(u',飘天文学','')
+        else:
+            return title
