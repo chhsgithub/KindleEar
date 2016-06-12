@@ -7,7 +7,7 @@ def getBook():
 
 class yichang(BasefeedBook):
     title                 = u'异常生物见闻录'
-    description           = u'远瞳url'
+    description           = u'远瞳'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
