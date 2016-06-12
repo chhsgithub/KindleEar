@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from base import BaseurlBook
+from base import BaseUrlBook
 
 def getBook():
     return text
 
-class text(BaseurlBook):
+class text(BaseUrlBook):
     title                 = u'异常'
     description           = u'远。'
     language              = 'zh-cn'
