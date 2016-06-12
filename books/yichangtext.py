@@ -7,7 +7,7 @@ def getBook():
 
 class text(BaseUrlBook):
     title                 = u'异常'
-    description           = u'2。'
+    description           = u'1。'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
