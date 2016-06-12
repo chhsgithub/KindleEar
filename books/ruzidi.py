@@ -6,7 +6,7 @@ def getBook():
     return ruzit
 
 class ruzit(BaseFeedBook):
-    title                 = u'123'
+    title                 = u'孺子帝'
     description           = u'冰临神下'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
