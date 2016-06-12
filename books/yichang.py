@@ -5,7 +5,7 @@ from base import BaseFeedBook
 def getBook():
     return yichang
 
-class yichang(BaseurlBook):
+class yichang(BasefeedBook):
     title                 = u'异常生物见闻录'
     description           = u'远瞳url'
     language              = 'zh-cn'
