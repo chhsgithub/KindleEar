@@ -16,4 +16,3 @@ class ruzidi(BaseFeedBook):
     feeds = [
             (u'正文', 'http://feed43.com/4753287776175011.xml')
            ]
-
