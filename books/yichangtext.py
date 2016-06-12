@@ -11,7 +11,7 @@ class text(BaseUrlBook):
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    coverfile = "cv_ruzidi.jpg"
+    coverfile = "cv_yichang.jpg"
     oldest_article        = 1
     feeds = [
             (u'正文', 'http://feed43.com/4753287776175011.xml')
