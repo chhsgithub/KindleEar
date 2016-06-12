@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from base import BaseFeedBook
+from base import BaseurlBook
 
 def getBook():
     return text
