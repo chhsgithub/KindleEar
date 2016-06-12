@@ -3,9 +3,9 @@
 from base import BaseUrlBook
 
 def getBook():
-    return ruzidi
+    return text
 
-class ruzidi(BaseUrlBook):
+class text(BaseUrlBook):
     title                 = u'孺子帝'
     description           = u'冰临神下'
     language              = 'zh-cn'
