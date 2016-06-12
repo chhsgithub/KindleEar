@@ -7,7 +7,7 @@ def getBook():
 
 class ruzidi(BaseFeedBook):
     title                 = u'孺子帝'
-    description           = u'冰临神下'
+    description           = u'冰临 神下'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
