@@ -3,10 +3,10 @@
 from base import BaseFeedBook
 
 def getBook():
-    return ruzidi
+    return ruzit
 
-class ruzidi(BaseFeedBook):
-    title                 = u'孺子帝'
+class ruzit(BaseFeedBook):
+    title                 = u'tex'
     description           = u'冰临神下'
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
