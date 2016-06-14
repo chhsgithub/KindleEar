@@ -11,6 +11,7 @@ class yichang(BaseFeedBook):
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
+    coverfile = "cv_yichang.jpg"
     oldest_article        = 1
     feeds = [
             (u'正文', 'http://feed43.com/3282680737133808.xml')
